@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container mylist">
+  <block wx:if="{{datalist.length === 0}}">
+    <view class='mylist-nodata'>没有关于你的内容哦~</view>
+  </block>
+  <block wx:if="{{datalist.length > 0}}" wx:for="{{datalist}}" wx:for-item="item" wx:key="item.letterid">
+    <view class='mylist-item' bindtap="godetail" data-replyuserid="{{item.replyuserid}}" data-letterid="{{item.letterid}}">
+      <view class='mylist-item-view'>{{item.lettercontent}}</view>
+      <view class='mylist-item-view'>
+        <text class='mylist-item-view-sub'>{{item.signname}} </text>
+        <text class='mylist-item-view-sub' wx:if="{{item.replysignname}}">点击查看 {{item.replysignname}} 的答复</text>
+        <text class='mylist-item-view-sub' wx:if="{{!item.replysignname}}">暂无答复</text>
+      </view>
+    </view>  
+  </block>
+</view>

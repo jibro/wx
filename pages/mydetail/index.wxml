@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container mydetail">
+  <view class='mydetail-signname'>{{detail.signname}}:</view>
+  <view class='mydetail-replycontent'>{{detail.replycontent}}</view>
+  <view class='mydetail-replysignname'>来自 {{detail.replysignname}}</view>
+</view>

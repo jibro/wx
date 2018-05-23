@@ -1,0 +1,17 @@
+.mydetail{
+  padding: 50rpx;
+  
+}
+.mydetail-signname{
+  color: #25bdb1;
+  font-size: 34rpx;
+}
+.mydetail-replycontent{
+  font-size: 40rpx;
+  padding: 60rpx 0;
+}
+.mydetail-replysignname{
+  color: #999;
+  font-size: 34rpx;
+  text-align: right;
+}

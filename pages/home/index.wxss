@@ -1,0 +1,91 @@
+.home-container{}
+.home-title{
+  color: #25bdb1;
+  font-size: 50rpx;
+  margin-left: 40rpx;
+  padding-bottom: 20rpx;
+  width: 300rpx;
+  border-bottom: 1rpx solid #25bdb1;
+}
+.letter-item{
+  word-wrap: break-word;
+  word-break:break-all;
+  margin: 50rpx 40rpx;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 50rpx 40rpx;
+  font-size: 34rpx;
+  color: #666;
+  border-radius: 10rpx;
+  flex: 1;
+  position: relative;
+}
+.letter-signname{
+  position: absolute;
+  bottom: 60rpx;
+  right: 50rpx;
+  color: #25bdb1;
+}
+.letter-item:last-child{
+  border-bottom:0;
+}
+.reply-modal{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.reply-modal-shadow{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.reply-modal-wrap{
+  margin:30rpx 40rpx;
+  padding:30rpx 50rpx;
+  height: 600rpx;
+  background-color: #bae8df;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  word-break:break-all;
+  position: relative;
+  z-index: 20;
+}
+
+.reply-modal-title{
+  color: #999;
+  margin-bottom: 30rpx;
+}
+.reply-modal-textarea{
+  width: 100%;
+  height: 400rpx;
+  font-size: 34rpx;
+}
+.reply-modal-input{
+  width: 420rpx;
+  height: 60rpx;
+  display: inline-block;
+  font-size: 34rpx;
+}
+.reply-form-btn{
+  color: #fff;
+  background-color: #25bdb1;
+}
+.reply-modal-bottom{
+  vertical-align: top;
+}
+.home-btns{
+  display: flex;
+  width: 430rpx;
+  margin: 0 auto 40rpx;
+}
+.home-btn{
+  padding: 20rpx;
+  background-color: #f0f0f0;
+  margin: 12rpx;
+}
+.home-btn-icon{
+  font-size: 50rpx;
+  color: #25bdb1;
+}

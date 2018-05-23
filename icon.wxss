@@ -1,0 +1,92 @@
+
+@font-face {font-family: "czbfont";
+  src: url('https://at.alicdn.com/t/font_536216_33s485bp5t81tt9.ttf?t=1526892989126') format('truetype');
+}
+
+.czbfont {
+  font-family:"czbfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iczb-delete:before { content: "\e69d"; }
+
+.iczb-edit:before { content: "\e69e"; }
+
+.iczb-form:before { content: "\e6a2"; }
+
+.iczb-rfq:before { content: "\e6ab"; }
+
+.iczb-add:before { content: "\e6b9"; }
+
+.iczb-more:before { content: "\e600"; }
+
+.iczb-history:before { content: "\e6f3"; }
+
+.iczb-iconfontxiala2:before { content: "\e630"; }
+
+.iczb-skip:before { content: "\e718"; }
+
+.iczb-load:before { content: "\e62d"; }
+
+.iczb-10:before { content: "\e647"; }
+
+.iczb-exl:before { content: "\e73f"; }
+
+.iczb-shuaxin:before { content: "\e650"; }
+
+.iczb-sousuo:before { content: "\e651"; }
+
+.iczb-xiangshangjiantou:before { content: "\e65d"; }
+
+.iczb-xiangxiajiantou:before { content: "\e65e"; }
+
+.iczb-xiangyoujiantou:before { content: "\e65f"; }
+
+.iczb-xiangzuojiantou:before { content: "\e660"; }
+
+.iczb-yijianfankui:before { content: "\e662"; }
+
+.iczb-shenglve:before { content: "\e60b"; }
+
+.iczb-icon-downfill:before { content: "\e668"; }
+
+.iczb-arrow_down:before { content: "\e639"; }
+
+.iczb-zhujie:before { content: "\e63b"; }
+
+.iczb-back:before { content: "\e63c"; }
+
+.iczb-close:before { content: "\e63f"; }
+
+.iczb-arrow_up:before { content: "\e640"; }
+
+.iczb-tel:before { content: "\e641"; }
+
+.iczb-dankuangguanbi:before { content: "\e64d"; }
+
+.iczb-clear:before { content: "\e653"; }
+
+.iczb-backtop:before { content: "\e654"; }
+
+.iczb-tishi:before { content: "\e614"; }
+
+.iczb-weitongyi:before { content: "\e657"; }
+
+.iczb-riqi:before { content: "\e606"; }
+
+.iczb-advice:before { content: "\e65a"; }
+
+.iczb-zhuan:before { content: "\e686"; }
+
+.iczb-download:before { content: "\e7d3"; }
+
+.iczb-shangsheng:before { content: "\e64a"; }
+
+.iczb-jia:before { content: "\e747"; }
+
+.iczb-upload:before { content: "\e67f"; }
+
+.iczb-downArrow:before { content: "\e740"; }

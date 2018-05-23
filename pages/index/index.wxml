@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="logo">
+    <image class='logo-image' src='../../images/logo.jpg'></image>
+  </view>
+  <view class='index-desc'>倾诉你的烦恼，解答别人的忧愁。</view>
+  <button class='index-setPlain' open-type="getUserInfo" bindgetuserinfo="setPlain">授权登入</button>
+</view>

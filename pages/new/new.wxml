@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="container add-letter">
+  <form bindsubmit="formSubmit">
+    <textarea placeholder="你想说些什么……" name="letter_content" auto-focus='true'/>
+    <input placeholder="署名" maxlength="10" name="letter_signname"/>
+    <button class='form-btn' form-type="submit" disabled="{{btnDisabled}}">发布</button>
+  </form>
+</view>

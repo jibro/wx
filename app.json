@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/index/index",
+    "pages/new/new",
+    "pages/mylist/index",
+    "pages/mydetail/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e7e7e5",
+    "navigationBarTitleText": "当雨季来临时",
+    "navigationBarTextStyle":"white"
+  }
+}

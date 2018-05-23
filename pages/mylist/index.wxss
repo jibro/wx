@@ -1,0 +1,19 @@
+.mylist{}
+.mylist-item{
+  padding: 40rpx;
+  margin: 15rpx 30rpx;
+  font-size: 30rpx;
+  background-color: #f0f0f0;
+}
+.mylist-item-view:nth-child(2){
+  margin-top: 20rpx;
+}
+.mylist-item-view-sub:nth-child(1) {
+  color: #25bdb1;
+}
+.mylist-item-view-sub:nth-child(2) {
+  color: #999;
+}
+.mylist-nodata{
+  padding: 40rpx;
+}

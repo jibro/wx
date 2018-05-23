@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container home-container">
+  <view class='home-title'>待您劝慰的：</view>
+  <view class="letter-item">
+    <text wx:if="{{!adata.lettercontent}}">暂无信件哦，去写一封吧~</text>
+    <text>{{adata.lettercontent}}</text>
+    <text class="letter-signname">{{adata.signname}}</text>
+  </view>
+  <view class='home-btns'>
+    <view class='home-btn' bindtap="replyItem"><text class='czbfont home-btn-icon iczb-yijianfankui'></text></view>
+    <view class='home-btn' bindtap="changeItem"><text class='czbfont home-btn-icon iczb-shuaxin'></text></view>
+    <view class='home-btn' bindtap="newItem"><text class='czbfont home-btn-icon iczb-add'></text></view>
+    <view class='home-btn' bindtap="mylist"><text class='czbfont home-btn-icon iczb-shenglve'></text></view>
+  </view>
+  <view class='reply-modal' wx:if="{{showModal}}">
+    <view class='reply-modal-shadow' bindtap="hideModal"></view>
+    <view class='reply-modal-wrap'>
+      <view class='reply-modal-title'>{{adata.signname}}:</view>
+      <form bindsubmit="replySubmit">
+        <textarea class='reply-modal-textarea' placeholder="我想对你说的是..." name="replycontent" auto-focus='true'></textarea>
+        <view class='reply-modal-bottom'>
+          <input class='reply-modal-input' placeholder="署名" maxlength="10" name="replysignname"/>
+          <button class='reply-form-btn' size="mini" form-type="submit">回复</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>
